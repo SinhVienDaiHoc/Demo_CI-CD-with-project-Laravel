@@ -2,7 +2,7 @@
     "version": 2,
     "framework": "laravel",
     "outputDirectory": "public",
-    "regions": ["sin1"],
+    "installCommand": "composer install",
     "rewrites": [
         { "source": "/(.*)", "destination": "/public/index.php" }
     ]
